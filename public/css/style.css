@@ -1,0 +1,192 @@
+
+/* Change card background color */
+.card {
+    background-color: #ff0000;
+    /* Replace with your desired background color */
+}
+
+/* Change card border */
+.card {
+    /* border: 2px solid #ff0000;  */
+    background-color: blue;
+    /* Replace with your desired border color and width */
+}
+
+/* Change card header background color */
+.card-header {
+    background-color: #ff0000;
+    /* Replace with your desired header background color */
+    color: #ff0000;
+    /* Text color for the header */
+}
+
+/* Change card body padding */
+.card-body {
+    padding: 20px;
+    /* Adjust the padding as needed */
+}
+
+/* Change card title color */
+.card-title {
+    color: #ff0000;
+    /* Replace with your desired title color */
+}
+
+/* Change card text color */
+.card-text {
+    color: #ff0000;
+    /* Replace with your desired text color */
+}
+
+.dataTables_wrapper table.dataTable tbody td {
+    white-space: normal !important;
+    /* Use !important to ensure higher priority */
+}
+
+#overlay {
+    z-index: 999999 !important;
+}
+
+.tooltip-inner {
+    max-width: 1100px !important;
+}
+
+.card-body {
+    margin: -10px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    row-gap: 15px;
+}
+
+.b {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.c {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.cari {
+    width: 200px;
+}
+
+.badge {
+    border: none;
+}
+
+.spinner {
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    -webkit-animation: rotation .6s infinite linear;
+    -moz-animation: rotation .6s infinite linear;
+    -o-animation: rotation .6s infinite linear;
+    animation: rotation .6s infinite linear;
+    border-left: 6px solid rgba(0, 174, 239, .15);
+    border-right: 6px solid rgba(0, 174, 239, .15);
+    border-bottom: 6px solid rgba(0, 174, 239, .15);
+    border-top: 6px solid rgba(0, 174, 239, .8);
+    border-radius: 100%;
+}
+
+#imginpt {
+    margin-top: 15px;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+@-moz-keyframes rotation {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(359deg);
+    }
+}
+
+@-o-keyframes rotation {
+    from {
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        -o-transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.dataTables_filter {
+    margin-bottom: 30px;
+}
+
+/* table.dataTable.exportTable.custom-filter-row {
+    display: none !important;
+} */
+
+@media screen and (max-width: 450px) {
+    .b {
+        display: grid;
+        justify-content: normal;
+        row-gap: 10px;
+    }
+
+    .search {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+    }
+
+    .mobileres {
+        overflow-x: auto;
+    }
+
+
+
+
+}
